@@ -1,0 +1,86 @@
+table,td,th {
+	border:1px solid black;
+	border-collapse:collapse;
+	empty-cells:show;
+	text-align:center;
+}
+body {
+	font-family:sans-serif,Helvetica,Arial;
+}
+body,html {
+	height:100%;
+	width:100%;
+	margin:0;
+}
+#othermonth,#current {
+	display:inline-block;
+}
+#calendrier {
+	margin:0 auto;
+	width:200px;
+}
+#connected {
+	background-color:lightgreen;
+}
+#connection {
+	display:flex;
+	background-color:lightblue;
+	padding:4px;
+	width:auto;
+}
+#HL {
+	text-align:right;
+}
+#event,#addevent {
+	border-radius:8px;
+	border:solid grey;
+	width:65%;
+	float:right;
+	margin:4px;
+	padding:4px;
+}
+#click {
+	float:left;
+	width:30%;
+}
+#nextevent {
+	border-radius:8px;
+	border:solid grey;
+	width:30%;
+	margin:4px;
+	padding:4px;
+}
+.home {
+	float:left;
+	padding:5px;
+}
+.home img {
+	width: 30px;
+	height: 30px;
+}
+#title {
+	text-align:center;
+}
+#subscribe {
+	margin:0 auto;
+	width:200px;
+	text-align:center;
+	background-color:green;
+	padding:6px;
+	border-radius:10px
+}
+footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	background:rgb(136,126,126);
+	color:white;
+}
+#settings {
+	margin:0 auto;
+	width:300px;
+}
+#settingstable {
+	margin: 3px;
+}
